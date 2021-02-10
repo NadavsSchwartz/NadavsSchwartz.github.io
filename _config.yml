@@ -1,11 +1,11 @@
 # Site settings
 author: Nadav Schwartz
-title: 
+title: A Day in the Life
 header-img: img/home-bg.png
 email: nadavschwartz58@gmail.com
 copyright_name: Nadav Schwartz
 description: > # this means to ignore newlines until "baseurl:"
-  
+  giving the user a friendly glimpse to people's day in the life
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  NadavsSchwartz
