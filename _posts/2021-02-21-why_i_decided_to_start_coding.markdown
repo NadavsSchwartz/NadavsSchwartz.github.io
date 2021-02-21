@@ -1,0 +1,12 @@
+---
+layout: post
+title:      " Why I decided to start coding?"
+date:       2021-02-21 21:56:20 +0000
+permalink:  why_i_decided_to_start_coding
+---
+
+
+My name is Nadav Schwartz. I am 27 years old and was born in Israel.
+At the end of 2016, four of my best friends and I came to California in hopes of starting over and achieve our goals, reinvent ourselves. I wanted to escape a past that did not bring great memories. My parents were survivors of an accident that was caused by a drunk driver. When I was about 13 years old, that event forced me to grow up quickly. That taught me a very valuable life-lesson. I learned that telling your own story gives you the ability to see things that you did not see at the time. I decided to start coding for a couple of reasons. One of them was that events in my life influenced me, and that influence was a key to a different event in my life. Moving to another country. It is hard, you know? Learning the language, leaving loved ones behind, adjusting to a different society and community, change your manners, thoughts, and even behavior, foreign law, rules, economic system, and much more. I reflect and ask myself, Why I thought it would be okay to relocate and start a completely different life with 3,000 dollars in a place I did not know and had never been to. The first few months were rough, but once again, hitting rock bottom taught me a very valuable life-lesson. It’s important to note that at any moment, I could quit this journey, go back to Israel with one phone call, just like my friends did. I also knew that fighting for your goals is only half of the way. Learning from the process is equally important. I believe there is a strict correlation between how much you put onto something versus its’ reward or, in other words, “where there is a will, there’s a way.” I know that by joining a coding Bootcamp, I could better myself, helping me achieve a set of goals, among them are: providing a good life for my family, learning how to learn better, contribute to the community, but most importantly,
+the reason I believe I signed up for that journey, is because I love to code. I love the thrill at the end of the frustration while trying to figure out why something doesn’t work or why it does work? I love the fact that you can have the ability to express your desires and thoughts in code and reach millions, if not billions, in any subject or genre you can think of.
+
