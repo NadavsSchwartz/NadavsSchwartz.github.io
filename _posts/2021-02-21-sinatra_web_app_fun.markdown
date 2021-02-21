@@ -1,0 +1,23 @@
+---
+layout: post
+title:      "Sinatra Web App, Fun."
+date:       2021-02-21 21:55:53 +0000
+permalink:  sinatra_web_app_fun
+---
+
+
+About two weeks ago I started my very first Sinatra web application,
+It was challenging. I never really knew anything about the web, back end, or front end, so the very first hard part was trying to imaging it, since, if I can’t imagine something, I can’t do it. Maybe it’s just me.
+So, I sat in front of a whiteboard and started drawing ideas and structures, till I found something that is relatively doable, yet I’m passionate about. Because if there’s one thing that motivates a person, is passion.
+When you’re passionate about something, ten hours a day working on it, doesn’t feel like TEN HOURS, it feels like time used properly to get better at something you WANT to achieve. and suddenly the “cost” of all that time spent on your web application seems okay and legitimate, stuff like Netflix, games, youtube surfing for fun, going out and much more, seems as if they are just not that important, due to one small thing called “passion”. The passion you developed for your project.
+My first thought was making a couponer’s lounge, an all in one couponer’s dream website where I source an item the user wanted from every platform from amazon to google shopping to target all these coupon websites that half of them are a scam and verify that coupon before showing it to the user (by scraping each coupon’s website navigating to that item >> adding to cart and applying the coupon verifying it’s validity)
+But, websites like google, amazon, and the rest of the “big” sites won’t let you scrape anymore without too many custom headers making it extremely hard, so I dropped it and switched to my next idea.
+A TravelWallet, where a user would see the recently queried flights but will only be able to add them to his profile after he’s logged in, and of course, once a user logs in and added flights to his profile, all of CRUD’s will be enabled on that flight, from editing straight from the user profile that flight getting REAL LIVE data and price, to delete, see more options, car rentals for the destination and much more. but, tackling that was just as hard.
+First, I had to map ALL of the airports, and if you didn’t know, each airport has its code, it’s called iata_code, and it’s what every flight search engine use to query flights, the issue is, it’s not public information unless you’re willing to pay hundreds of dollars for airport and flight search API, so what I did, is source every free API that gives that info from the first 15 pages of google and many API websites like RAPID-API, till I found some cool ones.
+I ended up using Skyscanner's free tier API, which gives you basic info and relatively a small database of flights, but it was the best out of all the options.
+So, I got my API, now it was time to figure out the actual structures of how things will be, how will my tables look like? Which table is the join table? How will I present the data and hundreds of more questions?
+So I started from the end going backward, instead of starting from the start. I started my project from the front end, I learned Materialize CSS, a CSS Framework by “Google”. Relatively similar to the known Bootstrap, which helped me take care of many elements of design I would most likely never figure out.
+From there, I tackled the user area, the signup, sign in, auth and profile, and once it was aligned properly and I was satisfied, the real work began. I created a search flight page, with a form (since I used free API, I could only query 1 passenger, and could only query one way flight), and to make it more user friendly, as soon as you start typing, I enabled an auto-complete straight from my airport database, followed by a query to Skyscanner's API to retrieve the flight information.
+The next part, handling the flight information, was one of the hardest parts of the whole project, it had to handle error messages, empty responses, had to validate that the API returns correct information and its correct order, and if not, modify it (so, for example, if you want to fly from LAX to HNL, my backend would need to verify the response, at times I assume because it’s free API, or because of lack of flight data from sky-scanner, I will get the opposite response where the result would be as I fly from HNL to LAX), Validate user input and make sure that the flight query is valid and much more.
+But after extensive work, I feel like I made it work. As best as a free API lets you. And after 200 or more hours, I feel like I’m proud of it. And it makes every second worth it.
+
